@@ -1,0 +1,22 @@
+%YAML:1.0
+# data
+# the tum dataset directory, change it to yours! 
+dataset_dir: ./Dataset/rgbd_dataset_freiburg2_pioneer_slam
+
+# fr2
+camera.fx: 517.3
+camera.fy: 516.5
+camera.cx: 318.6
+camera.cy: 255.3
+
+camera.depth_scale: 5000
+
+# VO paras
+number_of_features: 300
+scale_factor: 1.2
+level_pyramid: 8
+match_ratio: 2.0
+max_num_lost: 2
+min_inliers: 5
+keyframe_rotation: 0.1
+keyframe_translation: 0.1

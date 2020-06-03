@@ -1,8 +1,9 @@
 # mono-vo
-入门的单目视觉里程计的例子，参考自：http://avisingh599.github.io/vision/monocular-vo/，其所用到OpenCV3.0。本例子为OpenCV2.4.9的，头文件中自己增加了求解本质矩阵E和恢复运动位姿函数。
+入门的单目视觉里程计的例子，参考自高翔的视觉SLAM14讲的第9讲的0.4版本RGBD-VO
 
-依赖项：OpenCV
+需要配置的库有：OpenCV和Eigen
+另外使用了sophus的库文件，se3和so3的四个文件(两个.h和两个.cpp),需要git clone sophus以后, git checkout a621ff获得
 
 运行平台：Visual Studio(Windows)
 
-数据集来自：http://www.cvlibs.net/datasets/kitti/eval_odometry.php
+数据集来自：TUM
